@@ -6,7 +6,7 @@ A modern, responsive Blogger theme designed for mobile and Android apps, integra
 - Blog Posts with Dynamic Loading
 - Social Media Links (Instagram, Facebook, etc.)
 - Floating YouTube Button
-- Clean UI with Logo Branding
+- Clean UI with Logo Branding.
 
 ![AppDateGH Logo](https://debeatzgh.wordpress.com/wp-content/uploads/2025/08/createamoderntech-inspiredlogoforadigitalcontenthubcalledappdategh4933013559151235986.jpg)
 
