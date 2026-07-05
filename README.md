@@ -1,4 +1,101 @@
-<style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppDateGH</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    header img {
+      max-height: 60px;
+      margin-bottom: 0.5rem;
+    }
+    header h1 {
+      font-size: 1.5rem;
+    }
+    nav {
+      background: #fff;
+      display: flex;
+      justify-content: space-around;
+      padding: 0.5rem 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 1rem;
+      text-align: center;
+      background: #e5e5e5;
+    }
+    .hero iframe {
+      width: 100%;
+      height: 220px;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 1rem;
+    }
+    .section h2 {
+      margin-bottom: 0.5rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .social-icons {
+      text-align: center;
+      padding: 1rem;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #333;
+      font-size: 1.5rem;
+    }
+    .fab-button {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: red;
+      color: #fff;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+    <style>
 :root{
   --dbz-bg:#070b12;
   --dbz-card:rgba(13,17,23,.88);
