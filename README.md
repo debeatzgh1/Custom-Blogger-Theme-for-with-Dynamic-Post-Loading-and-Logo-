@@ -1,9 +1,3 @@
-=========================================
- DeBeatzGH Premium GitHub Pages Overlay Widget
- Modern Floating Promo + Lazy Load Iframe Hub
- Optimized for GitHub Pages / Blogger / HTML Gadgets
-========================================= -->
-
 <style>
 :root{
   --dbz-bg:#070b12;
