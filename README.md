@@ -203,7 +203,7 @@
           <div class="dbz-title">DeBeatzGH Exclusive Content</div>
           <div class="dbz-desc">Access streaming nodes, responsive designs & updates.</div>
         </div>
-        <button class="dbz-open-btn" onclick="openDbzHub('https://example.com')">Explore <span>&rarr;</span></button>
+        <button class="dbz-open-btn" onclick="openDbzHub('https://docs.google.com/document/d/1kl1Q0BLOwZFKYzIkuwrrIz-C-r8NiQiY/edit?usp=drivesdk&ouid=116845182021782803040&rtpof=true&sd=true&disco=AAAB_nroteQ')">Explore <span>&rarr;</span></button>
       </div>
     </div>
   </div>
@@ -360,7 +360,7 @@
     }
   </style>
 
-  <div class="dbz-mini-card" onclick="openDbzHub('https://debeatzgh.com')">
+  <div class="dbz-mini-card" onclick="openDbzHub('https://docs.google.com/document/d/1kl1Q0BLOwZFKYzIkuwrrIz-C-r8NiQiY/edit?usp=drivesdk&ouid=116845182021782803040&rtpof=true&sd=true')">
     <div class="dbz-content">
       <div class="dbz-icon-wrap">
         <svg viewbox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></path></svg>
@@ -382,8 +382,8 @@
   </div>
   
   <div class="dbz-quick-actions">
-    <button class="dbz-action-btn dbz-open" onclick="openDbzHub('https://debeatzgh.com')">Launch Overlay</button>
-    <button class="dbz-action-btn dbz-visit" onclick="window.open('https://debeatzgh.com','_blank')">Direct Visit</button>
+    <button class="dbz-action-btn dbz-open" onclick="openDbzHub('https://docs.google.com/document/d/1kl1Q0BLOwZFKYzIkuwrrIz-C-r8NiQiY/edit?usp=drivesdk&ouid=116845182021782803040&rtpof=true&sd=true')">Launch Overlay</button>
+    <button class="dbz-action-btn dbz-visit" onclick="window.open('https://docs.google.com/document/d/1kl1Q0BLOwZFKYzIkuwrrIz-C-r8NiQiY/edit?usp=drivesdk&ouid=116845182021782803040&rtpof=true&sd=true&disco=AAAB_nroteQ','_blank')">Direct Visit</button>
   </div>
 </div>
 
