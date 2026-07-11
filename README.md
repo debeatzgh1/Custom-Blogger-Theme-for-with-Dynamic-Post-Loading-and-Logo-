@@ -1,3 +1,312 @@
+<!-- ===============================
+ Debeatzgh Premium Floating Banner
+ GitHub Pages • Blogger • WordPress
+================================ -->
+
+<div id="dbzFloatingBanner">
+
+    <div class="dbz-left">
+
+        <div class="dbz-logo">
+            DBZ
+        </div>
+
+        <div class="dbz-content">
+
+            <div class="dbz-title">
+                🚀 Welcome to Debeatzgh
+            </div>
+
+            <div class="dbz-message" id="dbzMessage">
+                Discover premium tutorials, AI tools, templates and web resources.
+            </div>
+
+        </div>
+
+    </div>
+
+    <a
+        class="dbz-button"
+        href="https://debeatzgh1.github.io/1/"
+        target="_blank"
+        rel="noopener noreferrer">
+
+        Explore  →
+
+    
+
+</a
+></div>
+
+<style>
+
+:root{
+
+--dbz-bg:#07142a;
+--dbz-bg2:#13294b;
+--dbz-blue:#2d7cff;
+--dbz-green:#18c37d;
+--dbz-gold:#ffb100;
+--dbz-white:#ffffff;
+
+}
+
+#dbzFloatingBanner{
+
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:14px 22px;
+
+background:
+linear-gradient(
+90deg,
+var(--dbz-bg),
+var(--dbz-bg2),
+var(--dbz-bg)
+);
+
+background-size:300% 300%;
+
+animation:
+gradientMove 8s linear infinite,
+bannerSlide .7s ease;
+
+color:#fff;
+
+font-family:Arial,Helvetica,sans-serif;
+
+z-index:999999;
+
+backdrop-filter:blur(12px);
+
+box-shadow:
+0 10px 35px rgba(0,0,0,.35);
+
+}
+
+.dbz-left{
+
+display:flex;
+align-items:center;
+gap:15px;
+
+}
+
+.dbz-logo{
+
+width:30px;
+height:30px;
+
+border-radius:50%;
+
+background:
+linear-gradient(
+135deg,
+var(--dbz-blue),
+var(--dbz-green)
+);
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-size:18px;
+font-weight:bold;
+
+color:#fff;
+
+box-shadow:
+0 0 18px rgba(45,124,255,.45);
+
+animation:pulse 3s infinite;
+
+}
+
+.dbz-title{
+
+font-size:18px;
+font-weight:700;
+margin-bottom:4px;
+
+}
+
+.dbz-message{
+
+font-size:14px;
+opacity:.92;
+
+transition:.35s;
+
+}
+
+.dbz-button{
+
+padding:13px 24px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+color:#111;
+
+background:
+linear-gradient(
+135deg,
+var(--dbz-gold),
+#ffd84d
+);
+
+transition:.3s;
+
+box-shadow:
+0 8px 20px rgba(255,177,0,.35);
+
+}
+
+.dbz-button:hover{
+
+transform:
+translateY(-3px)
+scale(1.04);
+
+box-shadow:
+0 12px 28px rgba(255,177,0,.5);
+
+}
+
+body{
+
+padding-top:86px;
+
+}
+
+@keyframes bannerSlide{
+
+from{
+
+transform:translateY(-100%);
+
+}
+
+to{
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes gradientMove{
+
+0%{
+background-position:0% 50%;
+}
+
+100%{
+background-position:100% 50%;
+}
+
+}
+
+@keyframes pulse{
+
+50%{
+
+transform:scale(1.08);
+
+}
+
+}
+
+@media(max-width:768px){
+
+#dbzFloatingBanner{
+
+flex-direction:column;
+
+gap:15px;
+
+text-align:center;
+
+padding:18px;
+
+}
+
+.dbz-left{
+
+flex-direction:column;
+
+}
+
+.dbz-button{
+
+width:100%;
+
+}
+
+body{
+
+padding-top:160px;
+
+}
+
+}
+
+</style>
+
+<script>
+
+const messages=[
+
+"🚀 Discover premium AI tools and tutorials.",
+
+"🎨 Build beautiful GitHub Pages websites.",
+
+"📚 Learn WordPress, Blogger, HTML, CSS & JavaScript.",
+
+"⚡ Download premium scripts and templates.",
+
+"🤖 Explore the Debeatzgh AI Workspace.",
+
+"💼 Professional website resources and services.",
+
+"🌍 Modern UI components for developers.",
+
+"⭐ Start building smarter with Debeatzgh."
+
+];
+
+let index=0;
+
+const msg=document.getElementById("dbzMessage");
+
+setInterval(()=>{
+
+index=(index+1)%messages.length;
+
+msg.style.opacity=0;
+
+setTimeout(()=>{
+
+msg.textContent=messages[index];
+
+msg.style.opacity=1;
+
+},250);
+
+},4000);
+
+</script>
+
 <div id="dbzPalmBanner">
   <style>
     #dbzPalmBanner * {
